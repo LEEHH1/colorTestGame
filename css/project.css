@@ -1,0 +1,52 @@
+.gameMain {
+  width: 100vw;
+  height: 100vh;
+  display: flex;
+  align-items: center;
+  background-color: black;
+}
+.game {
+  margin: 0 auto;
+
+  width: 30%;
+  height: 70%;
+}
+.menuBar {
+  display: flex;
+  justify-content: space-between;
+  height: auto;
+  padding: 10px;
+  font-size: 17px;
+  color: #fff;
+}
+
+.time {
+  color: white;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 5px;
+}
+.gameBoard {
+  display: grid;
+  gap: 5px;
+  margin: 20px auto;
+  width: 90vw;
+  max-width: 600px;
+}
+.tile {
+  width: 100%;
+  padding-bottom: 100%;
+  position: relative;
+}
+.tile-inner {
+  position: absolute;
+  top: 0;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  cursor: pointer;
+}
+.stage {
+  display: flex;
+}
